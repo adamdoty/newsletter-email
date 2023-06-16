@@ -6,6 +6,10 @@ A portfolio project showcasing my ability to make newsletter html emails.
 
 <!-- [desktop](./images/email-main.png) and [mobile](./images/email-main-mobile.png) -->
 
+## Observations
+
+- Adobe has their own version of Helvetica font called "Adobe clean"
+
 ## Tools Used
 
 - [MJML](https://documentation.mjml.io/) (markup language)

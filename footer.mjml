@@ -1,0 +1,58 @@
+<!-- prettier-ignore -->
+<mjml>
+  <mj-body>
+    <!-- banner -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image
+          width="600px"
+          src="./images/creativity-for-all.png"
+          padding="0"
+        />
+      </mj-column>
+    </mj-section>
+    <!-- icons -->
+    <mj-section padding="40px 50px">
+      <mj-group>
+        <mj-column width="78%" vertical-align="middle">
+          <mj-image width="30px" src="./images/adobe-logo-classic.png" align="left" padding-left="0"/>
+        </mj-column>
+        <mj-column width="11%" vertical-align="middle">
+          <mj-image width="18px" src="./images/youtube.png" align="center" padding-right="0"/>
+        </mj-column>
+        <mj-column width="11%" vertical-align="middle">
+          <mj-image width="20px" src="./images/twitter.png" align="center" padding-right="0"/>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- text -->
+    <mj-section padding="0 50px">
+      <mj-column>
+        <mj-text color="#979797" font-weight="100" font-size="10.5px" line-height="1.7" padding-top="0">
+          Adobe services, like Adobe Creative Cloud, are available only to users
+          13 and older. Use of Adobe services and applications requires
+          agreement with the applicable <a href="#" style="color: #979797; text-decoration: underline">Terms of Use</a> and the
+          <a href="#" style="color: #979797; text-decoration: underline">Adobe Privacy Policy</a>.
+        </mj-text>
+        <mj-text color="#979797" font-weight="100" font-size="10.5px" line-height="1.7" padding-top="9px">
+          Adobe, the Adobe log, Creative Cloud, the Creative Cloud logo, and
+          Document Cloud are either registered trademarks or trademarks of Adobe
+          in the United States and/or other countries.
+        </mj-text>
+        <mj-text color="#979797" font-weight="100" font-size="10.5px" line-height="1.7" padding-top="9px">
+          This is not a comprehensive list of Adobe trademarks. For a full list,
+          refer to <a href="#" style="color: #979797; text-decoration: underline">Adobe Trademark Guidelines</a>. All other
+          trademarks are the property of their respective owners.
+        </mj-text>
+        <mj-text color="#979797" font-weight="100" font-size="10.5px" line-height="1.7" padding-top="9px">
+          This is a marketing email from Adobe, 345 Park Avenue, San Jose, CA 95110 USA. <a href="#" style="color: #979797; text-decoration: underline">Click here</a> to unsubscribe. Please review the <a href="#" style="color: #979797; text-decoration: underline">Adobe Privacy Policy</a>.
+        </mj-text>
+        <mj-text color="#979797" font-weight="100" font-size="10.5px" line-height="1.7" padding-top="9px">
+          To ensure email delivery, add <a href="#" style="color: #979797; text-decoration: underline">mail@mail.adobe.com</a> to
+          your address book, contacts, or safe sender list.
+        </mj-text>
+        <mj-spacer height="86px">
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

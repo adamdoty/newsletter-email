@@ -4,10 +4,10 @@
     <!-- logo -->
     <mj-section padding="40px 50px 32px">
       <mj-column width="8%">
-        <mj-image width="30px" src="./images/creative-cloud-icon.png" padding-left="0" padding-right="0" align="left" />
+        <mj-image width="30px" src="https://adamdoty.dev/projects/newsletter-email/images/creative-cloud-icon.png" padding-left="0" padding-right="0" align="left" />
       </mj-column>
       <mj-column width="92%">
-        <mj-image width="200px" src="./images/creative-cloud-text.png" align="left" padding-left="0" padding-right="0" />
+        <mj-image width="200px" src="https://adamdoty.dev/projects/newsletter-email/images/creative-cloud-text.png" align="left" padding-left="0" padding-right="0" />
       </mj-column>
     </mj-section>
     <!-- header -->

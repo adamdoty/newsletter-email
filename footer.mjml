@@ -4,29 +4,25 @@
     <!-- banner -->
     <mj-section padding="0">
       <mj-column>
-        <mj-image
-          width="600px"
-          src="https://adamdoty.dev/projects/newsletter-email/images/creativity-for-all.png"
-          padding="0"
-        />
+        <mj-image width="600px" src="./images/creativity-for-all.png" padding="0" />
       </mj-column>
     </mj-section>
     <!-- icons -->
-    <mj-section padding="40px 50px">
+    <mj-section padding="40px 25px" css-class="desktop-section-padding-icons">
       <mj-group>
-        <mj-column width="78%" vertical-align="middle">
-          <mj-image width="30px" src="https://adamdoty.dev/projects/newsletter-email/images/adobe-logo-classic.png" align="left" padding-left="0"/>
+        <mj-column width="68%" vertical-align="middle">
+          <mj-image width="30px" src="./images/adobe-logo-classic.png" align="left" padding-left="0" />
         </mj-column>
-        <mj-column width="11%" vertical-align="middle">
-          <mj-image width="18px" src="https://adamdoty.dev/projects/newsletter-email/images/youtube.png" align="center" padding-right="0"/>
+        <mj-column width="16%" vertical-align="middle">
+          <mj-image width="18px" src="./images/youtube.png" align="center" padding-right="0" />
         </mj-column>
-        <mj-column width="11%" vertical-align="middle">
-          <mj-image width="20px" src="https://adamdoty.dev/projects/newsletter-email/images/twitter.png" align="center" padding-right="0"/>
+        <mj-column width="16%" vertical-align="middle">
+          <mj-image width="20px" src="./images/twitter.png" align="center" padding-right="0" />
         </mj-column>
       </mj-group>
     </mj-section>
     <!-- text -->
-    <mj-section padding="0 50px">
+    <mj-section padding="0 25px" css-class="desktop-section-padding">
       <mj-column>
         <mj-text color="#979797" font-weight="100" font-size="10.5px" line-height="1.7" padding-top="0">
           Adobe services, like Adobe Creative Cloud, are available only to users

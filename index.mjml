@@ -17,6 +17,36 @@
       a {
         text-decoration: none;
       }
+
+      @media (min-width: 595px) {
+        .desktop-font-size {
+          font-size: 36px !important;
+        }
+
+        .desktop-logo-width {
+          width: 8% !important;
+        }
+
+        .desktop-logo-text-width {
+          width: 92% !important;
+        }
+
+        .desktop-section-padding {
+          padding: 0 25px !important;
+        }
+
+        .desktop-section-padding-logo {
+          padding: 0 25px 0 !important;
+        }
+
+        .desktop-section-padding-icons {
+          padding: 0 25px !important;
+        }
+
+        .desktop-image-padding {
+          padding: 10px 25px !important;
+        }
+      }
     </mj-style>
   </mj-head>
   <mj-body background-color="lightgray">
@@ -25,11 +55,11 @@
     <!-- article 1 -->
     <mj-section>
       <mj-column>
-        <mj-image width="500px" src="./images/adobe-express-add-ons.png" />
+        <mj-image width="500px" src="./images/adobe-express-add-ons.png" padding="10px 0" css-class="desktop-image-padding" />
         <mj-spacer height="4px" />
       </mj-column>
     </mj-section>
-    <mj-section padding="0 50px">
+    <mj-section padding="0 25px" css-class="desktop-section-padding">
       <mj-column>
         <mj-text font-size="20px" font-weight="500">Adobe Express Introduces Developer Add-ons</mj-text>
         <mj-text font-size="16px" line-height="1.625" font-weight="400" color="#2c2c2c" padding-top="6px">
@@ -45,7 +75,7 @@
         <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
-    <mj-section padding="0 50px">
+    <mj-section padding="0 25px" css-class="desktop-section-padding">
       <mj-column>
         <mj-button color="white" background-color="#1473e6" font-weight="600">
           Read more
@@ -60,7 +90,7 @@
         <mj-spacer height="4px" />
       </mj-column>
     </mj-section>
-    <mj-section padding="0 50px">
+    <mj-section padding="0 25px" css-class="desktop-section-padding">
       <mj-column>
         <mj-text font-size="20px" font-weight="500">Developer &amp; Partner Days, June 27 &amp; 28</mj-text>
         <mj-text font-size="16px" line-height="1.625" font-weight="400" color="#2c2c2c" padding-top="6px">
@@ -76,7 +106,7 @@
         <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
-    <mj-section padding="0 50px">
+    <mj-section padding="0 25px" css-class="desktop-section-padding">
       <mj-column>
         <mj-button color="#747474" background-color="transparent" border="2px solid #747474" inner-padding="9px 61px" font-weight="600" font-weight="600">
           Register now
@@ -85,7 +115,7 @@
       </mj-column>
     </mj-section>
     <!-- closing text -->
-    <mj-section padding="0 50px">
+    <mj-section padding="0 25px" css-class="desktop-section-padding">
       <mj-column>
         <mj-spacer height="36px" />
         <mj-text font-size="16px" font-weight="400" color="#2c2c2c">Thank you!</mj-text>
